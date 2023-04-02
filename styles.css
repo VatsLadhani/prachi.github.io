@@ -1,0 +1,114 @@
+* { 
+    box-sizing: border-box;
+    font-family: 'Playfair Display';
+    background-color: #020c18;
+    color:white;
+  }
+  
+  body {
+    margin-top: 7rem;
+    max-width: 70%;
+    margin: 7rem auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  header {
+    background-color: #020c18;
+    box-shadow: 0px 0 2.5rem -5px #610a89;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+  }
+  .menu li {
+    margin-left: 2rem;
+  }
+  .menu a {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 5rem 0;
+  }
+  
+  section h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .landing{
+    text-align: center;
+  } 
+  
+  .landing h1{
+    text-align:center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #610a89;
+    color: white;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    transition: all 0.3s;
+  }
+  .button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .about p {
+    font-size: 1.2rem;
+    max-width: 70%;
+    margin: auto;
+    line-height: 1.8;
+  }
+  
+  .project-card {
+    display: flex;
+    align-items: center;
+    margin: 3rem 0;
+  }
+  .project-card img {
+    width: 40%;
+    margin-right: 2rem;
+  }
+  .project-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .project-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+  }
+  
+  .socials .button{
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    color: white;
+    border-radius: 2rem;
+    border-color: white;
+    margin: 1rem 2rem;
+    transition: all 0.3s;
+  }
+  .landing-buttons{
+    margin-top: 25px;
+  }
